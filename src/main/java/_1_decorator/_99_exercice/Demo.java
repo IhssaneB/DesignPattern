@@ -6,7 +6,7 @@ public class Demo {
         // exemple de données à sauvegarder encrypter et compressé
         String salaryRecords = "Name,Salary\nJohn Smith,100000\nSteven Jobs,912000";
 
-        FileDataSource fileDataSource = new FileDataSource("OutputDemo.txt");
+        FileDataSource fileDataSource = new FileDataSource("exo1v1.txt");
 
         Encryptor encryptor = new Encryptor();
         Compressor compressor = new Compressor();
